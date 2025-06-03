@@ -1,0 +1,24 @@
+GET http://localhost:3000/user
+###
+
+POST http://localhost:3000/user
+Content-Type: application/json
+
+{
+  "name": "Ali",
+  "email": "ali@example.com"
+}
+###
+
+GET http://localhost:3000/user/1
+###
+
+PATCH http://localhost:3000/user/1
+Content-Type: application/json
+
+{
+  "email": "aliyeni@example.com"
+}
+###
+
+DELETE http://localhost:3000/user/1
